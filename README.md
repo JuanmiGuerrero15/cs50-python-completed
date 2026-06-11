@@ -1,2 +1,25 @@
-# cs50-python-completed
-Completed solutions from Harvard’s CS50 Introduction to Programming with Python. The exercises cover Python fundamentals such as input/output, strings, functions, and data types. This repository is part of my learning path towards computational linguistics and natural language processing.
+# CS50 – Introduction to Programming with Python
+
+This repository contains my solutions to Harvard’s CS50 Python course problem sets.
+
+I am using this course to strengthen my programming foundations, with a focus on computational linguistics and natural language processing.
+
+## Progress
+
+- Problem Set 0: Completed ✔️
+
+## Topics covered
+
+- Input and output
+- Strings
+- Functions
+- Type conversion
+- Basic arithmetic
+
+## Goal
+
+Build a strong foundation in Python and apply it to language-related problems.
+
+## Note
+
+This is a learning repository and will be updated as I progress through the course.
