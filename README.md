@@ -319,7 +319,8 @@ These skills provide a foundation for progressing toward more advanced topics su
 - Frank, Ian and Glen's Letters
 - Adieu, Adieu
 - Guessing Game
-- Bitcoin
+- Little Professor
+- Bitcoin Price Indez
 
 ### Problem Set 5 – Unit Tests
 
