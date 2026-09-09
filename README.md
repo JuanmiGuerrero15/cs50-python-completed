@@ -17,6 +17,7 @@ I am using this course to strengthen my programming foundations, with a particul
 - Problem Set 6: Completed ✔️
 - Problem Set 7: Completed ✔️
 - Problem Set 8: Completed ✔️
+- Final Project: Completed ✔️
 
 ---
 
@@ -185,6 +186,31 @@ I am using this course to strengthen my programming foundations, with a particul
 
 ---
 
+### 9 – Et Cetera
+
+- Sets with `set`
+- Removing duplicate values
+- Global variables
+- Constants
+- Type hints
+- Static type checking with `mypy`
+- Writing docstrings
+- Command-line argument parsing with `argparse`
+- Unpacking sequences and dictionaries
+- `*args` and `**kwargs`
+- `map()`
+- `filter()`
+- List comprehensions
+- Dictionary comprehensions
+- `enumerate()`
+- Generators
+- `yield`
+- Iterators
+- Writing more concise and expressive Python code
+- Improving code readability and maintainability
+
+---
+
 ## 🧩 Python Concepts Developed
 
 Throughout the course, I have worked with:
@@ -213,6 +239,10 @@ Throughout the course, I have worked with:
 - Sorting and searching
 - Input validation
 - Error handling
+- Type hints
+- Comprehensions
+- Iterators and generators
+- Command-line interfaces
 
 ---
 
@@ -221,6 +251,7 @@ Throughout the course, I have worked with:
 - **Python**
 - **Git & GitHub**
 - **pytest**
+- **mypy**
 - **CSV / JSON**
 - **REST APIs**
 - **Regular Expressions**
@@ -245,8 +276,12 @@ Throughout the course, I have worked with:
 - Validating structured information
 - Writing automated tests
 - Applying object-oriented programming principles
+- Working with regular expressions
+- Processing textual data
 - Thinking algorithmically
 - Improving code readability and organization
+- Designing command-line applications
+- Developing and documenting an independent Python project
 
 ---
 
@@ -261,11 +296,12 @@ The course has provided a foundation for:
 - Pattern matching with regular expressions
 - Structured text extraction
 - Data cleaning and transformation
-- Working with large collections of textual data
+- Working with collections of textual data
 - Processing CSV and JSON datasets
 - Consuming language-related APIs
 - Automating repetitive linguistic tasks
 - Designing modular text-processing programs
+- Comparing and analysing textual data
 
 These skills provide a foundation for progressing toward more advanced topics such as:
 
@@ -275,8 +311,42 @@ These skills provide a foundation for progressing toward more advanced topics su
 - Computational syntax
 - Information extraction
 - Text classification
+- Stylometry
 - Machine learning for language
 - Large Language Models (LLMs)
+
+---
+
+# 📝 Final Project
+
+## Computational Text Analysis
+
+For my CS50P final project, I developed a **Python-based computational text analysis program**.
+
+
+### 🔍 Language Identification
+
+The program can create and use language profiles based on reference texts. These profiles represent the distribution of characters and other textual features found in a language corpus.
+
+When a new text is provided, the program processes it and compares its characteristics with the stored language profiles. It then calculates similarity scores and uses them to estimate the most likely language.
+
+This approach demonstrates how relatively simple statistical properties of language can be used to perform a basic NLP task.
+
+### 📁 Project Structure
+
+The complete implementation can be found in the [`final project`](./final%20project) folder.
+
+The project includes the Python source code, reference language profiles, textual data, and tests used to validate the main functionality.
+
+The project was designed as a standalone command-line application and brings together many of the concepts developed throughout CS50P, including functions, loops, dictionaries, sets, file I/O, JSON, regular expressions, exception handling, unit testing, and modular program design.
+
+### 🎯 Why I Chose This Project
+
+I chose this project because I wanted the final assignment to go beyond demonstrating Python syntax and instead connect programming with my background in **Hispanic Philology and linguistics**.
+
+The project represents an initial step toward **computational linguistics and NLP**, where linguistic phenomena can be represented as data and analysed through computational methods.
+
+It also allowed me to explore a question that is particularly interesting to me: **how much information about language and writing style can be extracted from the text itself?**
 
 ---
 
@@ -320,7 +390,7 @@ These skills provide a foundation for progressing toward more advanced topics su
 - Adieu, Adieu
 - Guessing Game
 - Little Professor
-- Bitcoin Price Indez
+- Bitcoin Price Index
 
 ### Problem Set 5 – Unit Tests
 
@@ -358,12 +428,16 @@ My goal is to build a strong foundation in **Python programming and computationa
 
 CS50 provides the programming foundation; my next step is to combine it with my background in **Hispanic Philology and linguistics** to work on computational approaches to language.
 
+The final project represents the first step in that direction by applying Python programming to the analysis of real textual data.
+
 ---
 
 ## 📌 Note
 
 This repository documents my learning journey through **CS50's Introduction to Programming with Python**.
 
-Each problem set represents a step in developing my programming skills, from basic procedural programming and control flow to file processing, APIs, regular expressions, testing, and object-oriented programming.
+Each problem set represents a step in developing my programming skills, from basic procedural programming and control flow to file processing, APIs, regular expressions, testing, object-oriented programming, and more advanced Python features.
 
-The solutions in this repository reflect my progression in **Python, problem-solving, debugging, algorithmic thinking, and computational approaches to language**.
+The final project brings these skills together in an independent application focused on **computational text analysis**, providing a bridge between my background in **linguistics** and my growing interest in **programming, NLP, and computational linguistics**.
+
+The solutions in this repository reflect my progression in **Python, problem-solving, debugging, algorithmic thinking, text processing, and computational approaches to language**.
